@@ -3,7 +3,6 @@ import './App.css'
 import { MainLayout } from './components/layout/MainLayout'
 import { ProfilePage } from './components/pages/ProfilePage'
 import { StubPage } from './components/pages/StubPage'
-import { SettingsPage } from './components/pages/SettingsPage'
 
 function App() {
   return <BrowserRouter>
@@ -13,7 +12,7 @@ function App() {
         <Route path="/liked" element={<StubPage />} />
         <Route path="/downloads" element={<StubPage />} />
         <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/settings" element={<SettingsPage />} />
+        <Route path="/settings" element={<StubPage />} />
         <Route path="*" element={<Navigate to="/profile" />} />
       </Routes>
     </MainLayout>

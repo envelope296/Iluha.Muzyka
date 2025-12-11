@@ -41,7 +41,7 @@ export function ProfilePage() {
         {
             name: "Продюсеры",
             roundIcon: true,
-            iconUrls: Array(5).fill("https://placeit-img-1-p.cdn.aws.placeit.net/uploads/stage/stage_image/83228/optimized_product_thumb_stage.jpg")
+            iconUrls: Array(5).fill("https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/0d/51/5b0d51d3-d55c-85ea-d5d6-28aa0a2502f0/190295159894.jpg/1200x630bb.jpg")
         },
         {
             name: "Клипмейкеры",
