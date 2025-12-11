@@ -18,7 +18,6 @@ interface MainLayoutProps {
 
 export function MainLayout({children}: MainLayoutProps) {
     return <div className={styles.container}>
-        
         <div className={styles.background} />
         <section className={styles.main}>
             <NavigationMenu />
