@@ -34,7 +34,7 @@ export function MainLayout({children}: MainLayoutProps) {
                     <div className={`${styles.profileWrapper} glass`}>
                         <CheckMarkIcon className={styles.icon} />
                         <div className={styles.profileIconWrapper}>
-                            <img src="src/assets/images/profile.png" />
+                            <img src="@/assets/images/profile.png" />
                         </div>
                         <div>
                             <p className={styles.profileName}>tccckh</p>
