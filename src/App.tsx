@@ -13,7 +13,7 @@ function App() {
         <Route path="/downloads" element={<StubPage />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/settings" element={<StubPage />} />
-        {/* <Route path="*" element={<Navigate to="/profile" />} /> */}
+        <Route path="*" element={<Navigate to="/profile" />} />
       </Routes>
     </MainLayout>
   </BrowserRouter>
