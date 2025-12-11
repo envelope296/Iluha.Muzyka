@@ -1,0 +1,30 @@
+.nav {
+    width: 119px;
+    padding: 15px;
+    border-radius: 66px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 492px;
+}
+
+.navLink {
+    color: black;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLink__active {
+    color: red;
+    cursor: default;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.navLink > * {
+    color: white;
+    width: 48px;
+    height: 48px;
+}

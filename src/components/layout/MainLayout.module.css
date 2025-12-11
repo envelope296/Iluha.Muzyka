@@ -1,0 +1,252 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.background {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, .2)),
+        url("@/assets/images/background.webp");
+    position: fixed;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.mainWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nameWrapper {
+    width: 339px;
+    height: 77px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: white;
+}
+
+.searchWrapper {
+    padding: 20px 20px 20px 82px;
+    height: 77px;
+    width: 854px;
+    border-radius: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.searchWrapper > .icon {
+    position: absolute;
+    left: 15px;
+    top: 18px;
+    width: 40px;
+    height: 40px;
+}
+
+.search {
+    color: white;
+    font-size: 24px;
+    font-family: "Montserrat";
+    width: 100%;
+}
+
+.search::placeholder {
+    color: rgba(255, 255, 255, .8);
+    font-family: "Montserrat";
+    font-size: 24px;
+}
+
+.profileWrapper {
+    height: 77px;
+    width: 418px;
+    padding: 13px 0 10px 78px;
+    position: relative;
+    border-radius: 40px;
+}
+
+.profileIconWrapper {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    height: 52px;
+    size: 52px;
+    border-radius: 100%;
+}
+
+.profileIconWrapper > img {
+    width: 100%;
+    height: 100%;
+}
+
+.profileWrapper > .icon {
+    position: absolute;
+    top: 35px;
+    right: 23px;
+    width: 23px;
+    height: 10px;
+}
+
+.profileName {
+    color: white;
+    font-size: 20px;
+}
+
+.profileEmail {
+    color: white;
+    font-size: 16px;
+}
+
+.player {
+    width: 1651px;
+    height: 159px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 40px;
+    gap: 40px;
+}
+
+.mainControlsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.additionalControlsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+
+.iconWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 100%;
+}
+
+.musicInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.musicInfoIconWrapper {
+    height: 118px;
+    width: 118px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.musicInfoIconWrapper > img {
+    height: 100%;
+    width: 100%;
+}
+
+.musicInfoTextWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.musicInfoTextWrapper > p {
+    font-size: 28px;
+    color: white;
+    font-family: "Montserrat";
+    line-height: 1.4;
+}
+
+.musicInfoTextWrapper > p:nth-child(2) {
+    font-weight: 400;
+}
+
+.soundControlsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.musicInfoCommon {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 641px;
+    margin-left: 15px;
+    align-self: flex-end;
+}
+
+.musicTime {
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 10px;
+    height: 6px;
+    cursor: pointer;
+}
+
+.volumeLine {
+    background-color: white;
+    margin-left: -27px;
+    border-radius: 10px;
+    height: 6px;
+    width: 146px;
+    cursor: pointer;
+}
+
+.musicInfoCommonWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.musicInfoCommonWrapper > p {
+    color: rgba(255, 255, 255, .7);
+    font-size: 28px;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.content {
+    width: 1651px;
+    height: 702px;
+    border-radius: 40px;
+    overflow-x: hiddaen;
+    overflow-y: scroll;
+    scrollbar-color: transparent transparent;
+    padding: 35px 40px;
+    /* scrollbar-width: thin; */
+}

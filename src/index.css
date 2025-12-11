@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  all: unset;
+}
+
+.glass {
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+}
