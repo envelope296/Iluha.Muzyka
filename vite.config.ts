@@ -10,8 +10,7 @@ export default defineConfig({
   plugins: [react(), svgr()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src'),
-      '$': isGitHubPages ? '/Iluha.Muzyka' : 'src'
+      '@': path.resolve(__dirname, 'src')
     }
   }
 })

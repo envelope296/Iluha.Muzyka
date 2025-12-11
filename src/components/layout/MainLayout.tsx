@@ -34,7 +34,7 @@ export function MainLayout({children}: MainLayoutProps) {
                     <div className={`${styles.profileWrapper} glass`}>
                         <CheckMarkIcon className={styles.icon} />
                         <div className={styles.profileIconWrapper}>
-                            <img src="$/assets/images/profile.png" />
+                            <img src="https://i.pinimg.com/originals/4c/91/89/4c91898948d06aa2fa3db505449d8533.jpg" />
                         </div>
                         <div>
                             <p className={styles.profileName}>tccckh</p>
@@ -56,7 +56,7 @@ export function MainLayout({children}: MainLayoutProps) {
                     </div>
                     <div className={styles.musicInfo}>
                         <div className={styles.musicInfoIconWrapper}>
-                            <img src="src/assets/images/music_1.jfif" />
+                            <img src="https://m.media-amazon.com/images/I/61XHoZ6UP6L._UXNaN_FMjpg_QL85_.jpg" />
                         </div>
                         <div className={styles.musicInfoCommon}>
                             <div className={styles.musicInfoCommonWrapper}>
