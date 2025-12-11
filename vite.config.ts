@@ -6,7 +6,7 @@ import svgr from 'vite-plugin-svgr'
 const isGitHubPages = process.env.GH_PAGES === 'true';
 
 export default defineConfig({
-  base: isGitHubPages ? '/quick/' : '/',
+  base: isGitHubPages ? '/Iluha.Muzyka/' : '/',
   plugins: [react(), svgr()],
   resolve: {
     alias: {
